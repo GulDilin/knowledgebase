@@ -153,6 +153,7 @@ It is highly recommended to use CDI (context dependency injection) beans in JEE 
 ```java
 import jakarta.ejb.Singleton;
 import jakarta.ejb.Startup;
+import jakarta.annotation.PostConstruct;
 
 // OR javax (same thing, just old version)
 // import javax.ejb.Singleton;
@@ -238,6 +239,9 @@ com.example.EagerExtension
 
 ```java
 package com.example
+
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.annotation.PostConstruct;
 
 @ApplicationScoped
 @Eager
