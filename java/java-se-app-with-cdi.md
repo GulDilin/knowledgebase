@@ -2,7 +2,9 @@
 
 In CDI 2.0 there is a feature to implement CDI with Java SE application.
 
-[Source](https://docs.jboss.org/cdi/spec/2.0/cdi-spec.html#part_2)
+[CDI Specs](https://docs.jboss.org/cdi/spec/2.0/cdi-spec.html#part_2)
+
+[Full source code example](./examples/java-se-app-with-cdi)
 
 ## Introducing
 
