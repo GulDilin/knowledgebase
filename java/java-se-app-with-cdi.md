@@ -9,12 +9,11 @@ In CDI 2.0 there is a feature to implement CDI with Java SE application.
 ## Introducing
 
 In Java SE, the CDI container must be explicitly bootstrapped by the user.
-This is performed by the `SeContainerInitializer` abstract class and its static method `newInstance()``.
+This is performed by the `SeContainerInitializer` abstract class and its static method \`newInstance()\`\`.
 
 `SeContainerInitializer` is a `ServiceProvider` of the service `javax.enterprise.inject.se.SeContainerInitializer`
 declared in `META-INF/services`. This class allows a user to configure the CDI container before it is bootstrapped.
 The `SeContainerInitializer.initialize()` method bootstraps the container and returns a SeContainer instance.
-
 
 ## Example
 
@@ -53,7 +52,6 @@ To see full example just explore code in same directory.
     </plugins>
 </build>
 ```
-
 
 ### com/example/ExampleService.java
 
@@ -101,7 +99,6 @@ public class ExampleService {
 ```
 
 ### com/example/Main.java
-
 
 ```java
 public final class Main {

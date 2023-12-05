@@ -7,9 +7,10 @@ This plugin with `jar-with-dependencies` descriptor pack all classes (including 
 Change `com.example.Main` to your main class
 
 > **_NOTE_** If you choose non-jar packaging or build `war` + `jar`
-dont change execution phase to `package`. It won't include your project classes for unknown reasons
+> dont change execution phase to `package`. It won't include your project classes for unknown reasons
 
 Part of `pom.xml`
+
 ```xml
 <project ...>
     <!-- ... -->
@@ -52,7 +53,7 @@ Part of `pom.xml`
 ```
 
 > **_NOTE_** If you are using CDI for java SE app it can be possible problems with Ambiguous dependencies
-caused by multiple injection candidates from dependencies classes
+> caused by multiple injection candidates from dependencies classes
 
 ## Solution for Ambiguous beans from dependencies classes
 
@@ -71,6 +72,7 @@ but that index is most likely not what you want. First,
 it is an unmodified index originating in one of the constituent JARs
 
 Part of `pom.xml`
+
 ```xml
 <project ...>
     <!-- ... -->

@@ -17,8 +17,8 @@ A top-level Java class is a managed bean if it is defined to be a managed bean b
 - It does not implement `javax.enterprise.inject.spi.Extension`.
 - It is not annotated `@Vetoed` or in a package annotated `@Vetoed`.
 - It has an appropriate constructor - either:
-    * the class has a constructor with no parameters, or
-    * the class declares a constructor annotated `@Inject`.
+  - the class has a constructor with no parameters, or
+  - the class declares a constructor annotated `@Inject`.
 
 All Java classes that meet these conditions are managed beans
 and thus no special declaration is required to define a managed bean.
@@ -26,7 +26,6 @@ and thus no special declaration is required to define a managed bean.
 If packages annotated `@Vetoed` are split across classpath entries, non-portable behavior results.
 An application can prevent packages being split across jars
 by sealing the package as defined by the Extension Mechanism Architecture.
-
 
 ## Bean defining annotations
 
@@ -45,30 +44,30 @@ A bean archive with this mode is called **IMPLICIT**.
 To make things a little bit more complicated, an implicit bean archive does not have to contain a `beans.xml` file at all.
 One class with a bean defining annotation or a session bean is enough.
 
-
 Implicit bean archive has pros and cons:
 
 Pros:
 
-+ saves a lot of memory if an archive contains a lot of classes which should NOT become beans
-(the container does not have to store the metadata)
-+ speeds up the bootstrap (the container does not have to process all the types, fire events like `ProcessBean`, etc.)
+- saves a lot of memory if an archive contains a lot of classes which should NOT become beans
+  (the container does not have to store the metadata)
+- speeds up the bootstrap (the container does not have to process all the types, fire events like `ProcessBean`, etc.)
 
 Cons:
+
 - does not fire `ProcessAnnotatedType` for all types from the bean archive;
-this breaks some extensions (e.g. - `MessageBundleExtension` from `DeltaSpike`)
+  this breaks some extensions (e.g. - `MessageBundleExtension` from `DeltaSpike`)
 - does not pick up `@javax.inject.Singleton` beans (it’s not a bean defining annotation)
 
 **CONCLUSION**: If possible, use the annotated discovery mode.
 
 > **_NOTE:_**  Most Weld-based runtimes allow to suppress implicit bean archives without beans.xml,
-i.e. to require the `beans.xml` file in bean archives so that it’s not necessary
-to scan all the parts of the application. See also FAQ.
+> i.e. to require the `beans.xml` file in bean archives so that it’s not necessary
+> to scan all the parts of the application. See also FAQ.
 
 > **_NOTE:_** If it is not possible to use annotated mode,
-you can try a Weld-specific feature to conserve memory used:
-Veto types without bean defining annotation.
-A similar solution is going to be standardized in CDI 2.0 (see also CDI-420).
+> you can try a Weld-specific feature to conserve memory used:
+> Veto types without bean defining annotation.
+> A similar solution is going to be standardized in CDI 2.0 (see also CDI-420).
 
 ## Weld Tip 3 - Boost performance of Weld apps
 
@@ -83,7 +82,7 @@ Instead, a shared client proxy is injected.
 This proxy invokes a method upon the correct bean instance (created if necessary).
 
 > **_NOTE:_** Having many injection points resolving to normal scoped beans
-does not necessarily mean additional overhead associated with bean instance creation.
+> does not necessarily mean additional overhead associated with bean instance creation.
 
 In the following example, an `OrderProcessor` instance is not created until its `OrderProcess.process()` method is called:
 
@@ -114,13 +113,12 @@ class OrderService {
 ```
 
 > **_NOTE:_**  Weld’s session context is also initilized lazily and doesn’t require an HTTP session
-to actually exist until a bean instance must be written
-(i.e. until a method of a `@SessionScoped` bean is invoked).
+> to actually exist until a bean instance must be written
+> (i.e. until a method of a `@SessionScoped` bean is invoked).
 
 ## Eager CDI beans (Startup initialization)
 
-
-> **PROBLEM:_** default beans (`@SessionScoped`,`@RequestScoped`, `@ApplicationScoped`, etc.) are lazy initialized
+> **PROBLEM:\_** default beans (`@SessionScoped`,`@RequestScoped`, `@ApplicationScoped`, etc.) are lazy initialized
 
 There is no option you could select for eager initialization,
 you have to choose some "initialization".
@@ -129,9 +127,7 @@ and since lazy makes more sense most of the time, Weld went that way.
 
 > **_NOTE:_** Eager means that bean creates at start.
 
-
 ### JSF solution (deprecated)
-
 
 ```java
 import javax.faces.bean.ApplicationScoped;
@@ -152,9 +148,7 @@ public class StartupBean{
 `@ManagedBean` annotation was deprecated with JSF 2.2.
 It is highly recommended to use CDI (context dependency injection) beans in JEE environment.
 
-
 ### Java EE EJB solution
-
 
 ```java
 import jakarta.ejb.Singleton;
@@ -181,8 +175,8 @@ Source http://ovaraksin.blogspot.com/2013/02/eager-cdi-beans.html
 
 Extensions https://docs.jboss.org/weld/reference/latest/en-US/html/extend.html
 
-
 #### com/example/Eager.java
+
 ```java
 package com.example
 
@@ -193,6 +187,7 @@ public @interface Eager { }
 ```
 
 #### com/example/EagerExtension.java
+
 ```java
 package com.example
 
@@ -239,8 +234,8 @@ The file has only one line with a fully qualified path to the EagerExtension cla
 com.example.EagerExtension
 ```
 
-
 #### com/example/StartupBean.java
+
 ```java
 package com.example
 
@@ -254,5 +249,6 @@ public class StartupBean {
     }
     ...
 ```
-```
 
+```
+```
