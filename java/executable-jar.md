@@ -6,8 +6,9 @@ This plugin with `jar-with-dependencies` descriptor pack all classes (including 
 
 Change `com.example.Main` to your main class
 
-> **_NOTE_** If you choose non-jar packaging or build `war` + `jar`
-> dont change execution phase to `package`. It won't include your project classes for unknown reasons
+> **_NOTE_** If you choose non-jar packaging or build `war` + `jar` (for example)
+> change execution phase to `compile`.
+> Because with `package` and non `jar` packaging it won't include your project classes for unknown reasons
 
 Part of `pom.xml`
 
@@ -34,8 +35,11 @@ Part of `pom.xml`
                 </configuration>
                 <executions>
                     <execution>
-                        <!-- Do not change to package, it won't include project classes for unknown reason-->
-                        <phase>compile</phase>
+                        <!--
+                            Is you areusing not `jar` packaging change to 'compile',
+                            because it won't include project classes for unknown reason
+                        -->
+                        <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
