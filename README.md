@@ -15,6 +15,25 @@ This repo contains parts of documentations, examples and workarounds for differe
 
 - [Java](./java)
 
+## Tools
+
+### Text to ASCII Art
+
+- https://patorjk.com/software/taag
+
+### RegEx
+
+- [Regex Cheat Sheet](https://www.rexegg.com/regex-quickstart.html)
+
+### Docs
+
+- [Dev docs for many tools](https://devdocs.io/)
+
+### Learning
+
+- [Web.dev learn](https://web.dev/learn?hl=ru)
+- [Developers Roadmap](https://roadmap.sh/)
+
 ## Setup dev env (for pre-commit checks)
 
 1. Install `python 3.11+` [\[download\]](https://www.python.org/downloads/release/python-3117/)
