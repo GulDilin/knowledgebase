@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test page.md",
+                "file": "2024-02-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,16 +54,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28c153b685a1afa6",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Untitled Diagram.svg"
-              }
-            }
-          },
-          {
             "id": "b3fa105d6654e13d",
             "type": "leaf",
             "state": {
@@ -86,7 +76,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,6 +158,8 @@
   "active": "6dbb5a00fbdc12a6",
   "lastOpenFiles": [
     "Test page.md",
+    "2024-02-14.md",
+    "Untitled.canvas",
     "Untitled Diagram.svg",
     "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
     "excladidraw-lib/uml-library-activity-diagram.excalidrawlib",
