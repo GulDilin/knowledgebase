@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 389.5
   },
   "right": {
     "id": "294fc12f15ccbe8e",
@@ -158,8 +158,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f70f4b6d83bab3d",
+  "active": "28c153b685a1afa6",
   "lastOpenFiles": [
+    "excladidraw-lib/uml-library-activity-diagram.excalidrawlib",
+    "excladidraw-lib",
+    "New folder",
     "Test page.md",
     "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
     "Excalidraw",
@@ -173,8 +176,6 @@
     "java/examples/java-se-app-with-cdi/src/main/java/com/example",
     "java/examples/java-se-app-with-cdi/src/main/java/resources",
     "java/examples/java-se-app-with-cdi/src/main/java/com",
-    "java/examples/java-se-app-with-cdi/src/main/java",
-    "java/examples/java-se-app-with-cdi/com/example/Main.java",
     "java/soap.md",
     "java/README.md",
     "java/jpa.md",
