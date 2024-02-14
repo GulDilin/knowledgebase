@@ -11,28 +11,14 @@
             "id": "e126d515cd981eb6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram",
               "state": {
-                "file": "Test page.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled Diagram.svg"
               }
             }
           },
           {
-            "id": "7f70f4b6d83bab3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-02-14.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dbb5a00fbdc12a6",
+            "id": "8dba4f8075db5367",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -40,7 +26,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,6 +39,16 @@
         "id": "1ace365f2ab08cff",
         "type": "tabs",
         "children": [
+          {
+            "id": "a072cfdb39c56c51",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Untitled Diagram 1.svg"
+              }
+            }
+          },
           {
             "id": "b3fa105d6654e13d",
             "type": "leaf",
@@ -75,19 +71,8 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "a072cfdb39c56c51",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test page.md",
+                "file": "Untitled Diagram 1.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test page.md",
+                "file": "Untitled Diagram 1.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test page.md"
+                "file": "Untitled Diagram 1.svg"
               }
             }
           }
@@ -169,12 +154,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6dbb5a00fbdc12a6",
+  "active": "a072cfdb39c56c51",
   "lastOpenFiles": [
+    "Untitled Diagram 1.svg",
+    "Untitled Diagram.svg",
     "Test page.md",
     "2024-02-14.md",
     "Untitled.canvas",
-    "Untitled Diagram.svg",
     "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
     "excladidraw-lib/uml-library-activity-diagram.excalidrawlib",
     "excladidraw-lib",
