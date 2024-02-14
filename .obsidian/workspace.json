@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b0675fb33bfc2f93",
+        "id": "a2a5b8e8de75f7a8",
         "type": "tabs",
         "children": [
           {
-            "id": "e126d515cd981eb6",
+            "id": "b2399e1ea1b8cf7f",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "Untitled Diagram.svg"
-              }
-            }
-          },
-          {
-            "id": "8dba4f8075db5367",
-            "type": "leaf",
-            "state": {
-              "type": "diagram",
-              "state": {
-                "file": "Untitled Diagram.svg"
+                "file": "Test page.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "Test page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "Test page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled Diagram.svg"
+                "file": "Test page.md"
               }
             }
           }
@@ -157,13 +148,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8dba4f8075db5367",
+  "active": "b2399e1ea1b8cf7f",
   "lastOpenFiles": [
+    "Diagram.svg",
+    "README.md",
     "Untitled.canvas",
     "Untitled Diagram.svg",
     "Test page.md",
     "Diagram.svg.xml",
-    "Diagram.svg",
     "Untitled Diagram 2.svg",
     "Untitled Diagram 1.svg",
     "2024-02-14.md",
