@@ -1,26 +1,14 @@
 {
   "main": {
-    "id": "45c1689015caf947",
+    "id": "f7f4dbb5575278aa",
     "type": "split",
     "children": [
       {
-        "id": "7ad002e32bb2ec0b",
+        "id": "b0675fb33bfc2f93",
         "type": "tabs",
         "children": [
           {
-            "id": "b39a60bb59d2026c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "java/executable-jar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ba593fd201b51b5",
+            "id": "e126d515cd981eb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,22 +19,21 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "856f20dfaabb4bcd",
+    "id": "3c644f315f7376e4",
     "type": "split",
     "children": [
       {
-        "id": "5b203d84991c8863",
+        "id": "1ace365f2ab08cff",
         "type": "tabs",
         "children": [
           {
-            "id": "967f6fba5f9a3bdb",
+            "id": "28c153b685a1afa6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "6e2c200bb7190228",
+            "id": "b3fa105d6654e13d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "e69fd936f2f3f654",
+            "id": "2570512fb325a424",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "79295cfae386b5a5",
+    "id": "294fc12f15ccbe8e",
     "type": "split",
     "children": [
       {
-        "id": "c8c76a543a9d6d52",
+        "id": "7fbc461a84e1eb69",
         "type": "tabs",
         "children": [
           {
-            "id": "7a5c2c6763518142",
+            "id": "174477409d965d45",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -110,7 +97,7 @@
             }
           },
           {
-            "id": "3e0aa89a66186ec4",
+            "id": "3b4d778025247d51",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -122,7 +109,7 @@
             }
           },
           {
-            "id": "86468df97e8d4c26",
+            "id": "5c91f8d547e1975d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +120,7 @@
             }
           },
           {
-            "id": "70257014c46d1162",
+            "id": "904b1a13dcec52ad",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -159,11 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ba593fd201b51b5",
+  "active": "e126d515cd981eb6",
   "lastOpenFiles": [
+    "java/examples/java-se-app-with-cdi/src/main/java/com/example/Main.java",
+    "java/examples/java-se-app-with-cdi/src/main/java/com/example/ExampleService.java",
+    "java/examples/java-se-app-with-cdi/src/main/java/com/example/ExampleRepository.java",
+    "java/examples/java-se-app-with-cdi/src/main/java/resources/beans.xml",
+    "java/examples/java-se-app-with-cdi/src/main/java/com/example",
+    "java/examples/java-se-app-with-cdi/src/main/java/resources",
+    "java/examples/java-se-app-with-cdi/src/main/java/com",
+    "java/examples/java-se-app-with-cdi/src/main/java",
+    "java/examples/java-se-app-with-cdi/com/example/Main.java",
+    "java/examples/java-se-app-with-cdi/com/example/ExampleService.java",
+    "java/examples/java-se-app-with-cdi/com/example/ExampleRepository.java",
+    "java/soap.md",
+    "java/README.md",
+    "java/jpa.md",
+    "java/jax-rs.md",
+    "java/java-se-app-with-cdi.md",
+    "java/jakarta-ee.md",
     "java/executable-jar.md",
-    "Test page.md",
     "java/beans.md",
-    "README.md"
+    "devops/jenkins/git-branch-paramerter.md"
   ]
 }
