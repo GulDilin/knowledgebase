@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7f70f4b6d83bab3d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test page.md",
+                "file": "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test page.md",
+                "file": "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test page.md"
+                "file": "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md"
               }
             }
           }
@@ -143,15 +154,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e126d515cd981eb6",
+  "active": "7f70f4b6d83bab3d",
   "lastOpenFiles": [
+    "Test page.md",
+    "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
+    "Excalidraw",
     "Pasted image 20240214153936.png",
     "Pasted image 20240214153922.png",
     "Pasted image 20240214153846.png",
-    "Test page.md",
     "java/examples/java-se-app-with-cdi/src/main/java/com/example/Main.java",
     "java/examples/java-se-app-with-cdi/src/main/java/com/example/ExampleService.java",
     "java/examples/java-se-app-with-cdi/src/main/java/com/example/ExampleRepository.java",
@@ -161,7 +175,6 @@
     "java/examples/java-se-app-with-cdi/src/main/java/com",
     "java/examples/java-se-app-with-cdi/src/main/java",
     "java/examples/java-se-app-with-cdi/com/example/Main.java",
-    "java/examples/java-se-app-with-cdi/com/example/ExampleService.java",
     "java/soap.md",
     "java/README.md",
     "java/jpa.md",
