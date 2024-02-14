@@ -21,11 +21,9 @@
             "id": "8dba4f8075db5367",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram",
               "state": {
-                "file": "Test page.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled Diagram.svg"
               }
             }
           }
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test page.md",
+                "file": "Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test page.md",
+                "file": "Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test page.md"
+                "file": "Untitled Diagram.svg"
               }
             }
           }
@@ -161,12 +159,14 @@
   },
   "active": "8dba4f8075db5367",
   "lastOpenFiles": [
-    "Untitled Diagram 2.svg",
-    "Test page.md",
-    "Untitled Diagram 1.svg",
-    "Untitled Diagram.svg",
-    "2024-02-14.md",
     "Untitled.canvas",
+    "Untitled Diagram.svg",
+    "Test page.md",
+    "Diagram.svg.xml",
+    "Diagram.svg",
+    "Untitled Diagram 2.svg",
+    "Untitled Diagram 1.svg",
+    "2024-02-14.md",
     "Excalidraw/Drawing 2024-02-14 16.17.03.excalidraw.md",
     "excladidraw-lib/uml-library-activity-diagram.excalidrawlib",
     "excladidraw-lib",
@@ -180,7 +180,6 @@
     "java/examples/java-se-app-with-cdi/src/main/java/com/example/ExampleRepository.java",
     "java/examples/java-se-app-with-cdi/src/main/java/resources/beans.xml",
     "java/examples/java-se-app-with-cdi/src/main/java/com/example",
-    "java/examples/java-se-app-with-cdi/src/main/java/resources",
     "java/soap.md",
     "java/README.md",
     "java/jpa.md",
