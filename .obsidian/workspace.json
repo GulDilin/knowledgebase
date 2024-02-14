@@ -71,6 +71,16 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "bfe8ef47f57d460c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ]
       }
