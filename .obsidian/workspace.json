@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test page.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test page.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test page.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test page.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,11 +150,12 @@
   },
   "active": "b2399e1ea1b8cf7f",
   "lastOpenFiles": [
-    "Diagram.svg",
+    "Pasted image 20240214153936.png",
     "README.md",
+    "Test page.md",
+    "Diagram.svg",
     "Untitled.canvas",
     "Untitled Diagram.svg",
-    "Test page.md",
     "Diagram.svg.xml",
     "Untitled Diagram 2.svg",
     "Untitled Diagram 1.svg",
@@ -164,7 +165,6 @@
     "excladidraw-lib",
     "New folder",
     "Excalidraw",
-    "Pasted image 20240214153936.png",
     "Pasted image 20240214153922.png",
     "Pasted image 20240214153846.png",
     "java/examples/java-se-app-with-cdi/src/main/java/com/example/Main.java",
